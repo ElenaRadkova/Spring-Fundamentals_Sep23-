@@ -1,0 +1,90 @@
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="~{fragments/head}">
+</head>
+<body>
+<div class="wrapper">
+    <!-- Navigation -->
+    <div th:replace="~{fragments/navigation}"></div>
+
+    <!-- Top Container -->
+    <section class="top-container">
+        <div class="showcase">
+            <h1>THE CHEF RESTAURANT</h1>
+            <p>"След една хубава вечеря, човек може да прости на всеки, дори на собствените си роднини."
+                Оскар Уайлд</p>
+            <a href="/reservation" class="btn">To tables</a>
+        </div>
+<!--        <div class="top-box top-box-a">-->
+<!--            <h4>Времето в София</h4>-->
+<!--            <h4><span id="box-a-temp">15</span><span>&#8451;</span></h4>-->
+<!--            <img id="box-a-img" src="/images/sun.png" height="150px" alt="">-->
+<!--        </div>-->
+<!--        <div class="top-box top-box-b">-->
+<!--            <h4>Времето в Созопол</h4>-->
+<!--            <h4><span id="box-b-temp">27</span><span>&#8451;</span></h4>-->
+<!--            <img id="box-b-img" src="/images/cloudy.png" height="150px" alt="">-->
+<!--        </div>-->
+    </section>
+
+    <!-- Boxes Section -->
+    <section class="boxes">
+        <a href="/" class="main-btn" >
+            <div class="box">
+                <img src="/images/dinner.png" height="150px" alt="">
+                <h3>Individual reservation</h3>
+                <p>Just want to dinner with friends?</p>
+            </div>
+        </a>
+
+        <a href="/" class="main-btn" >
+            <div class="box">
+                <img src="/images/cocktail1.png" height="150px" alt="">
+                <h3>Cocktail</h3>
+                <p>Do you need a cocktail party?</p>
+            </div>
+        </a>
+        <a href="/" class="main-btn" >
+            <div class="box">
+                <img src="/images/celebration1.png" height="150px" alt="">
+                <h3>Celebration</h3>
+                <p>When you have an occasion to celebrate</p>
+            </div>
+        </a>
+<!--        <a href="/" class="main-btn" >-->
+<!--            <div class="box">-->
+<!--                <img src="/images/motorcycle.png" height="150px" alt="">-->
+<!--                <h3>Motorcycle</h3>-->
+<!--                <p>When you want the wind to blow on your face!</p>-->
+<!--            </div>-->
+<!--        </a>-->
+
+    </section>
+
+    <!-- Info Section -->
+<!--    <section class="road">-->
+<!--        <img src="/images/most-commented.jpg" alt="">-->
+<!--        <div>-->
+<!--            <h2>The most commented route</h2>-->
+<!--            <p>Read more about the most commented route and do not miss the-->
+<!--                chance to visit it and give your opinion to help other users.</p>-->
+<!--            <a href="/" class="btn">Learn More</a>-->
+<!--        </div>-->
+<!--    </section>-->
+
+    <!-- Portfolio -->
+    <section class="gallery">
+        <img src="/images/1.jpg" width="150px" height="250px" alt="">
+        <img src="/images/5.jpg" width="150px" height="250px" alt="">
+    </section>
+
+    <!-- <script th:src="@{/js/weather.js}"></script> -->
+</div>
+<!-- Wrapper Ends -->'
+
+<footer th:replace="~{fragments/footer}">
+</footer>
+</body>
+
+</html>
